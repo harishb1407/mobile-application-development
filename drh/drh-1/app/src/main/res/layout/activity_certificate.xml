@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:id="@+id/homepage"
+    android:orientation="vertical"
+    tools:context=".certificate">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180pt"
+        android:layout_height="60pt"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/certificate"
+        android:textColor="@color/blue"
+        android:textStyle="italic"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/product_type"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/products"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:text="@string/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/quantity"
+            android:inputType="number"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:text="@string/lot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/lot"
+            android:inputType="number"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/appearance"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/appearance"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView android:text="@string/purity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/purity"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/tlc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tlc"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/appearance"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="130pt"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_margin="12dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60pt"
+            android:layout_height="20pt"
+            android:layout_gravity="center"
+            android:layout_marginRight="10pt"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="60pt"
+            android:layout_height="20pt"
+            android:layout_gravity="center"
+            android:text="@string/view"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

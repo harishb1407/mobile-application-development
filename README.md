@@ -3,4 +3,4 @@ This repository contains the code for the project titled "Mobile Application Dev
 
 The project also made use of Google Firebase to store the company data and retrieve it for calculations/display within the application. The repository also contains a walkthrough of the application in the form of a video. 
 
-Contributor: [Harish Balasubramaniam](https://github.com/harishb1407)
+Contributor: [Harish Balasubramaniam]([https://github.com/harishb1407](https://www.linkedin.com/in/harish-balasubramaniam/))

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="harish.example.drh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Drh">
+        <activity android:name=".viewlot6_cert"></activity>
+        <activity android:name=".viewlot5_cert" />
+        <activity android:name=".viewlot3_cert" />
+        <activity android:name=".viewlot2_cert" />
+        <activity android:name=".viewlot4_cert" />
+        <activity android:name=".viewlot1_cert" />
+        <activity android:name=".lot6_cert" />
+        <activity android:name=".lot5_cert" />
+        <activity android:name=".lot4_cert" />
+        <activity android:name=".lot3_cert" />
+        <activity android:name=".lot2_cert" />
+        <activity android:name=".lot1_cert" />
+        <activity android:name=".viewlot4" />
+        <activity android:name=".viewlot3" />
+        <activity android:name=".viewlot2" />
+        <activity android:name=".viewlot1" />
+        <activity android:name=".lot4" />
+        <activity android:name=".lot3" />
+        <activity android:name=".lot2" />
+        <activity android:name=".lot1" />
+        <activity android:name=".table3" />
+        <activity android:name=".table2" />
+        <activity android:name=".table1" />
+        <activity android:name=".certificate" />
+        <activity android:name=".packing" />
+        <activity android:name=".calculator" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

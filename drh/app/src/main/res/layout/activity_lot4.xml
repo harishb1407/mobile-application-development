@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:orientation="vertical"
+    tools:context=".lot4">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOT NUMBER 1"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/lot_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/bag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/bag_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/nobag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/nobag_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/gross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/gross_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/tare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/tare_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/net_pack_1"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOT NUMBER 2"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/lot_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/bag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/bag_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/nobag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/nobag_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/gross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/gross_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/tare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/tare_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/net_pack_2"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOT NUMBER 3"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/lot_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/bag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/bag_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/nobag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/nobag_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/gross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/gross_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/tare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/tare_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/net_pack_3"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOT NUMBER 4"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/lot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/lot_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/bag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/bag_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/nobag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/nobag_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/gross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/gross_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/tare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/tare_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/net_pack_4"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/confirm_pack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Confirm"/>
+
+        <Button
+            android:id="@+id/view_pack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View"/>
+
+
+    </LinearLayout>
+</ScrollView>

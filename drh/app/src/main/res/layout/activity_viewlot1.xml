@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:id="@+id/homepage"
+    android:orientation="vertical"
+    tools:context=".lot2">
+
+   <ImageView
+       android:id="@+id/logo"
+       android:layout_width="180pt"
+       android:layout_height="60pt"
+       app:srcCompat="@drawable/logo" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="10dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:text="@string/to"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blue"
+             android:textSize="15dp"/>
+
+         <TextView
+             android:id="@+id/to"
+             android:text=""
+             android:gravity="center"
+             android:textColor="@color/blue"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:text="@string/name"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blue"
+             android:textSize="15dp"/>
+
+         <TextView
+             android:id="@+id/name"
+             android:text=""
+             android:gravity="center"
+             android:textColor="@color/blue"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="@string/product"
+             android:textColor="@color/blue"
+             android:textSize="15dp" />
+
+         <TextView
+             android:id="@+id/pro"
+             android:text=""
+             android:gravity="center"
+             android:textColor="@color/blue"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:text="@string/packno"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blue"
+             android:textSize="15dp"/>
+
+         <TextView
+             android:id="@+id/packno"
+             android:text=""
+             android:gravity="center"
+             android:textColor="@color/blue"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:text="@string/quantity"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blue"
+             android:textSize="15dp"/>
+
+         <TextView
+             android:id="@+id/quantity"
+             android:text=""
+             android:gravity="center"
+             android:textColor="@color/blue"
+             android:textSize="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"/>
+
+      </LinearLayout>
+   </LinearLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp">
+
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/white"
+          android:layout_margin="10dp">
+
+         <TableRow
+             android:background="@color/blue">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lot no."
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bag no."
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="No. of bags"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Gross wt."
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tare wt."
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Net wt."
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+
+         </TableRow>
+
+         <TableRow>
+            <TextView
+                android:id="@+id/r1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/r2"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/r3"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/r4"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/r5"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/r6"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+         </TableRow>
+
+
+         <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/s2"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/s3"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/s4"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/s5"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/s6"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+         </TableRow>
+
+      </TableLayout>
+
+   </RelativeLayout>
+
+
+
+
+</LinearLayout>

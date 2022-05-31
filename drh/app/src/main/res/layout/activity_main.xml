@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:id="@+id/homepage"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180pt"
+        android:layout_height="80pt"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="160pt"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="@string/calculator"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="160pt"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:text="@string/packing"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="160pt"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:text="@string/certificate"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

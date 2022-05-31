@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20239722316",
+    "project_id": "drh-demo",
+    "storage_bucket": "drh-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20239722316:android:91faa5040a07ebd56291e9",
+        "android_client_info": {
+          "package_name": "harish.example.drh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20239722316-tnr326knirm2lss4fpl6nu65s0ren33o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcLiSemutgnI5NIw4dFkdERJ2ei9fkmDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20239722316-tnr326knirm2lss4fpl6nu65s0ren33o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:id="@+id/homepage"
+    android:orientation="vertical"
+    tools:context=".table1">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180pt"
+        android:layout_height="60pt"
+        app:srcCompat="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/product1"
+            android:textSize="25sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="40dp">
+
+            <TableRow
+                android:background="@color/blue">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col1"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col2"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col3"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t1_row1"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/t1_element1_quantity"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/t1_element1_cost"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t1_row2"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/t1_element2_quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="49dp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/t1_element2_cost"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t1_row3"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/t1_element3_quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/t1_element3_cost"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:text="@string/t1_row4"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/total_cost"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

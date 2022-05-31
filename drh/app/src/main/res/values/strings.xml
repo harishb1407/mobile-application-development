@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- HOME PAGE -->
+    <string name="app_name">DRH Life Science</string>
+    <string name="calculator">Material and Cost Calculator</string>
+    <string name="packing">Packing List Generator </string>
+    <string name="certificate">Certificate of Analysis </string>
+
+    <string name="product_names">Product Name:</string>
+    <string-array name="products">
+        <item>CMBI</item>
+        <item>DEMAP Aldehyde</item>
+        <item>4-CPNA</item>
+    </string-array>
+
+
+    <!-- CALCULATOR -->
+    <string name="title">Material and Cost Calculator</string>
+    <string name="product_type">Select Product: </string>
+    <string name="order_quantity">Enter Order Quantity (kgs): </string>
+    <string name="confirm_quantity">Confirm Quantity</string>
+    <string name="goto_table">Next</string>
+
+
+    <!-- CERTIFICATE -->
+    <string name="quantity">Quantity:</string>
+    <string name="lot">Lot no:</string>
+    <string name="appearance">Appearance:</string>
+    <string-array name="appearance">
+        <item>Complies</item>
+        <item>Does not Comply</item>
+    </string-array>
+    <string name="purity">Purity:</string>
+    <string name="tlc">TLC:</string>
+    <string name="add">Add Lot</string>
+    <string name="view">View</string>
+
+
+    <!-- PACKING -->
+    <string name="pack">Packing List</string>
+    <string name="to">To:</string>
+    <string name="name">Name:</string>
+    <string name="product">Product Name:</string>
+    <string name="packno">P.O.NO:</string>
+    <string name="lotnumber">No. of lots:</string>
+    <string name="bag">Bag No:</string>
+    <string name="nobag">No of Bags:</string>
+    <string name="gross">Gross wt:</string>
+    <string name="tare">Tare wt:</string>
+    <string name="net">Net wt:</string>
+    <string name="delete">delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="lotno">Lot No.:</string>
+
+
+    <!-- TABLE -->
+    <string name="col1">NAME OF RAW MATERIAL</string>
+    <string name="col2">QUANTITY</string>
+    <string name="col3">COST</string>
+    <string name="load_data">Load Data</string>
+
+
+    <!-- TABLE 1 -->
+    <string name="product1">CMBI</string>
+    <string name="t1_row1">OPDA</string>
+    <string name="t1_row2">ECA</string>
+    <string name="t1_row3">ODCB</string>
+    <string name="t1_row4">Total cost</string>
+
+
+    <!-- TABLE 2 -->
+    <string name="product2">DEMAP Aldehyde</string>
+    <string name="t2_row1">N,N-Dimethy formamide</string>
+    <string name="t2_row2">POCl3</string>
+    <string name="t2_row3">DEMAP</string>
+    <string name="t2_row4">NaOH [flakes]</string>
+    <string name="t2_row5">Ice + Water</string>
+    <string name="t2_row6">Total cost</string>
+
+
+    <!-- TABLE 3 -->
+    <string name="product3">4-CPNA</string>
+    <string name="t3_row1">1,8-Naphthalinic anhydride</string>
+    <string name="t3_row2">Soda Ash</string>
+    <string name="t3_row3">Acetic acid</string>
+    <string name="t3_row4">NaOCl</string>
+    <string name="t3_row5">Sodium Chloride</string>
+    <string name="t3_row6">HCl</string>
+    <string name="t3_row7">Dry material [4-CPNA]</string>
+
+
+
+
+    <!-- PACKING VIEW TABLE -->
+    <string name="c1">Lot no.</string>
+    <string name="c2">Bag no.</string>
+    <string name="c3">No. of Bags</string>
+    <string name="c4">Gross Wt.</string>
+    <string name="c5">Tare Wt.</string>
+    <string name="c6">Net Wt.</string>
+    <string name="total">Total</string>
+    <string name="load_data1">Load Data</string>
+
+
+    <!-- PACKING LOTS -->
+    <string-array name="lots">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <!-- CERTIFICATE LOTS -->
+    <string-array name="lots_certificate">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,821 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10pt"
+    android:orientation="vertical"
+    tools:context=".lot5_cert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="LOT NUMBER 1"
+            android:textColor="@color/blue"
+            android:textStyle="italic"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/lot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/lot_cert"
+                    android:inputType="number"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/appearance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/appearance"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/spin2_cert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/appearance"
+                    tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/purity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/purity_cert"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tlc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tlc"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/spin3_cert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/appearance"
+                    tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="LOT NUMBER 2"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/lot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/lot_cert_2"
+                        android:inputType="number"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/appearance_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/appearance"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin2_cert_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/purity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/purity_cert_2"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tlc_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tlc"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin3_cert_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="LOT NUMBER 3"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/lot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/lot_cert_3"
+                        android:inputType="number"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/appearance_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/appearance"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin2_cert_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/purity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/purity_cert_3"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tlc_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tlc"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin3_cert_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/textView_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="LOT NUMBER 4"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/lot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/lot_cert_4"
+                        android:inputType="number"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/appearance_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/appearance"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin2_cert_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/purity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/purity_cert_4"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tlc_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tlc"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin3_cert_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="LOT NUMBER 5"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/lot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/lot_cert_5"
+                        android:inputType="number"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/appearance_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/appearance"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin2_cert_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/purity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/purity_cert_5"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tlc_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tlc"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin3_cert_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="LOT NUMBER 6"
+                android:textColor="@color/blue"
+                android:textStyle="italic"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/lot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/lot_cert_6"
+                        android:inputType="number"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/appearance_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/appearance"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin2_cert_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/purity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:id="@+id/purity_cert_6"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tlc_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tlc"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spin3_cert_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/appearance"
+                        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Specification"
+            android:textColor="@color/blue"
+            android:textStyle="italic"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/appearance"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/appearance_cert_spec"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/purity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/purity_cert_spec"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/tlc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/tlc_cert_spec"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/confirm_cert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Confirm"/>
+        <Button
+            android:id="@+id/view_cert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
